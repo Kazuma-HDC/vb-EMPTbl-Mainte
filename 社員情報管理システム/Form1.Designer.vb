@@ -22,20 +22,20 @@ Partial Class frmMain
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.FrmEMPSel = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'FrmEMPSel
         '
-        Me.Button1.Location = New System.Drawing.Point(334, 23)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(122, 49)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "社員検索"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.FrmEMPSel.Location = New System.Drawing.Point(334, 23)
+        Me.FrmEMPSel.Name = "FrmEMPSel"
+        Me.FrmEMPSel.Size = New System.Drawing.Size(122, 49)
+        Me.FrmEMPSel.TabIndex = 0
+        Me.FrmEMPSel.Text = "社員検索"
+        Me.FrmEMPSel.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -72,14 +72,14 @@ Partial Class frmMain
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.FrmEMPSel)
         Me.Name = "frmMain"
         Me.Text = "frmMain"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
+    Friend WithEvents FrmEMPSel As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
