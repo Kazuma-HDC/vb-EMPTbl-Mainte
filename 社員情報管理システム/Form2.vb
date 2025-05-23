@@ -10,7 +10,7 @@ Public Class FrmEMPSel
     Dim Connection As New System.Data.Odbc.OdbcConnection(ConnectionString.ToString)
     Dim DV1Rows As Integer = 0
     Dim SQLStrings As String
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub btnKensaku_Click(sender As Object, e As EventArgs) Handles btnKensaku.Click
         'オープン
         Connection.Open()
 
@@ -25,10 +25,10 @@ Public Class FrmEMPSel
         DAdapter.Fill(DSet, "EMP")
 
         'DataGridViewへの表示
-        DataGridView1.DataSource = DSet.Tables("EMP")
+        dgvEMP.DataSource = DSet.Tables("EMP")
 
         'DataGridViewの行数取得
-        DV1Rows = DataGridView1.Rows.Count
+        DV1Rows = dgvEMP.Rows.Count
 
 
 
@@ -37,13 +37,13 @@ Public Class FrmEMPSel
 
 
         '列見出しの設定
-        DataGridView1.Columns(0).HeaderText = "EMPNO"
-        DataGridView1.Columns(1).HeaderText = "ENAME"
-        DataGridView1.Columns(2).HeaderText = "JOB"
-        DataGridView1.Columns(3).HeaderText = "MGR"
-        DataGridView1.Columns(4).HeaderText = "HIREDATE"
-        DataGridView1.Columns(5).HeaderText = "SAL"
-        DataGridView1.Columns(6).HeaderText = "COMM"
-        DataGridView1.Columns(7).HeaderText = "DEPTNO"
+        dgvEMP.Columns(0).HeaderText = "EMPNO"
+        dgvEMP.Columns(1).HeaderText = "ENAME"
+        dgvEMP.Columns(2).HeaderText = "JOB"
+        dgvEMP.Columns(3).HeaderText = "MGR"
+        dgvEMP.Columns(4).HeaderText = "HIREDATE"
+        dgvEMP.Columns(5).HeaderText = "SAL"
+        dgvEMP.Columns(6).HeaderText = "COMM"
+        dgvEMP.Columns(7).HeaderText = "DEPTNO"
     End Sub
 End Class

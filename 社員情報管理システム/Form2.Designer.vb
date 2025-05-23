@@ -22,43 +22,43 @@ Partial Class FrmEMPSel
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.Button1 = New System.Windows.Forms.Button()
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.dgvEMP = New System.Windows.Forms.DataGridView()
+        Me.btnKensaku = New System.Windows.Forms.Button()
+        CType(Me.dgvEMP, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'DataGridView1
+        'dgvEMP
         '
-        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(36, 84)
-        Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.RowTemplate.Height = 21
-        Me.DataGridView1.Size = New System.Drawing.Size(752, 273)
-        Me.DataGridView1.TabIndex = 0
+        Me.dgvEMP.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvEMP.Location = New System.Drawing.Point(36, 84)
+        Me.dgvEMP.Name = "dgvEMP"
+        Me.dgvEMP.RowTemplate.Height = 21
+        Me.dgvEMP.Size = New System.Drawing.Size(752, 273)
+        Me.dgvEMP.TabIndex = 0
         '
-        'Button1
+        'btnKensaku
         '
-        Me.Button1.Location = New System.Drawing.Point(669, 403)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "検索"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnKensaku.Location = New System.Drawing.Point(669, 403)
+        Me.btnKensaku.Name = "btnKensaku"
+        Me.btnKensaku.Size = New System.Drawing.Size(75, 23)
+        Me.btnKensaku.TabIndex = 1
+        Me.btnKensaku.Text = "検索"
+        Me.btnKensaku.UseVisualStyleBackColor = True
         '
         'FrmEMPSel
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.btnKensaku)
+        Me.Controls.Add(Me.dgvEMP)
         Me.Name = "FrmEMPSel"
         Me.Text = "社員検索"
-        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvEMP, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents Button1 As Button
+    Friend WithEvents dgvEMP As DataGridView
+    Friend WithEvents btnKensaku As Button
 End Class

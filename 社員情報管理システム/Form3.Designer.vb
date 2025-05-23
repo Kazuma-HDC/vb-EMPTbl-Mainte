@@ -30,15 +30,15 @@ Partial Class FrmEMPlns
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.txtEMPEmpno = New System.Windows.Forms.TextBox()
+        Me.txtEMPEname = New System.Windows.Forms.TextBox()
+        Me.txtEMPJob = New System.Windows.Forms.TextBox()
+        Me.txtEMPMgr = New System.Windows.Forms.TextBox()
+        Me.txtEMPHiredate = New System.Windows.Forms.TextBox()
+        Me.txtEMPSal = New System.Windows.Forms.TextBox()
+        Me.txtEMPComm = New System.Windows.Forms.TextBox()
+        Me.txtEMPDeptno = New System.Windows.Forms.TextBox()
+        Me.btnEMPIns = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -113,85 +113,85 @@ Partial Class FrmEMPlns
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "部署番号"
         '
-        'TextBox1
+        'txtEMPEmpno
         '
-        Me.TextBox1.Location = New System.Drawing.Point(208, 97)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox1.TabIndex = 8
+        Me.txtEMPEmpno.Location = New System.Drawing.Point(208, 97)
+        Me.txtEMPEmpno.Name = "txtEMPEmpno"
+        Me.txtEMPEmpno.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPEmpno.TabIndex = 8
         '
-        'TextBox2
+        'txtEMPEname
         '
-        Me.TextBox2.Location = New System.Drawing.Point(208, 168)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox2.TabIndex = 9
+        Me.txtEMPEname.Location = New System.Drawing.Point(208, 168)
+        Me.txtEMPEname.Name = "txtEMPEname"
+        Me.txtEMPEname.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPEname.TabIndex = 9
         '
-        'TextBox3
+        'txtEMPJob
         '
-        Me.TextBox3.Location = New System.Drawing.Point(208, 225)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox3.TabIndex = 10
+        Me.txtEMPJob.Location = New System.Drawing.Point(208, 225)
+        Me.txtEMPJob.Name = "txtEMPJob"
+        Me.txtEMPJob.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPJob.TabIndex = 10
         '
-        'TextBox4
+        'txtEMPMgr
         '
-        Me.TextBox4.Location = New System.Drawing.Point(208, 281)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox4.TabIndex = 11
+        Me.txtEMPMgr.Location = New System.Drawing.Point(208, 281)
+        Me.txtEMPMgr.Name = "txtEMPMgr"
+        Me.txtEMPMgr.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPMgr.TabIndex = 11
         '
-        'TextBox5
+        'txtEMPHiredate
         '
-        Me.TextBox5.Location = New System.Drawing.Point(208, 333)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox5.TabIndex = 12
+        Me.txtEMPHiredate.Location = New System.Drawing.Point(208, 333)
+        Me.txtEMPHiredate.Name = "txtEMPHiredate"
+        Me.txtEMPHiredate.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPHiredate.TabIndex = 12
         '
-        'TextBox6
+        'txtEMPSal
         '
-        Me.TextBox6.Location = New System.Drawing.Point(208, 391)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox6.TabIndex = 13
+        Me.txtEMPSal.Location = New System.Drawing.Point(208, 391)
+        Me.txtEMPSal.Name = "txtEMPSal"
+        Me.txtEMPSal.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPSal.TabIndex = 13
         '
-        'TextBox7
+        'txtEMPComm
         '
-        Me.TextBox7.Location = New System.Drawing.Point(208, 452)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox7.TabIndex = 14
+        Me.txtEMPComm.Location = New System.Drawing.Point(208, 452)
+        Me.txtEMPComm.Name = "txtEMPComm"
+        Me.txtEMPComm.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPComm.TabIndex = 14
         '
-        'TextBox8
+        'txtEMPDeptno
         '
-        Me.TextBox8.Location = New System.Drawing.Point(208, 515)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(100, 19)
-        Me.TextBox8.TabIndex = 15
+        Me.txtEMPDeptno.Location = New System.Drawing.Point(208, 515)
+        Me.txtEMPDeptno.Name = "txtEMPDeptno"
+        Me.txtEMPDeptno.Size = New System.Drawing.Size(100, 19)
+        Me.txtEMPDeptno.TabIndex = 15
         '
-        'Button1
+        'btnEMPIns
         '
-        Me.Button1.Location = New System.Drawing.Point(233, 600)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "追加"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnEMPIns.Location = New System.Drawing.Point(233, 600)
+        Me.btnEMPIns.Name = "btnEMPIns"
+        Me.btnEMPIns.Size = New System.Drawing.Size(75, 23)
+        Me.btnEMPIns.TabIndex = 16
+        Me.btnEMPIns.Text = "追加"
+        Me.btnEMPIns.UseVisualStyleBackColor = True
         '
         'FrmEMPlns
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(428, 650)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.TextBox8)
-        Me.Controls.Add(Me.TextBox7)
-        Me.Controls.Add(Me.TextBox6)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.btnEMPIns)
+        Me.Controls.Add(Me.txtEMPDeptno)
+        Me.Controls.Add(Me.txtEMPComm)
+        Me.Controls.Add(Me.txtEMPSal)
+        Me.Controls.Add(Me.txtEMPHiredate)
+        Me.Controls.Add(Me.txtEMPMgr)
+        Me.Controls.Add(Me.txtEMPJob)
+        Me.Controls.Add(Me.txtEMPEname)
+        Me.Controls.Add(Me.txtEMPEmpno)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -215,13 +215,13 @@ Partial Class FrmEMPlns
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents txtEMPEmpno As TextBox
+    Friend WithEvents txtEMPEname As TextBox
+    Friend WithEvents txtEMPJob As TextBox
+    Friend WithEvents txtEMPMgr As TextBox
+    Friend WithEvents txtEMPHiredate As TextBox
+    Friend WithEvents txtEMPSal As TextBox
+    Friend WithEvents txtEMPComm As TextBox
+    Friend WithEvents txtEMPDeptno As TextBox
+    Friend WithEvents btnEMPIns As Button
 End Class
